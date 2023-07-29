@@ -9,4 +9,4 @@ def take_screenshot(my_driver):
     vSECONDS = datetime.datetime.now().second  # the current second
     result = str(vDate)+"_ts"+str(vHOUR)+str(vMINUTE)+str(vSECONDS)
     my_driver.get_screenshot_as_file(
-        f"C:\\Users\\gayat\\PycharmProjects\\pythonProject\\0304pyprojj1\\c_screenshots\\testrun{result}.png")
+        f"C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\july29_class_test_project\\screenshots\\testrun{result}.png")
