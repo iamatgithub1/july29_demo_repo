@@ -44,7 +44,7 @@ if tab_add_employee.is_displayed():
     pim_emp_name.send_keys("Priyanka")
 
     pim_emp_name = my_chromedriver.find_element(By.XPATH, "//input[@name='lastName']")
-    pim_emp_name.send_keys("J")
+    pim_emp_name.send_keys("ZZZ")
 
     pim_save = my_chromedriver.find_element(By.XPATH, "//button[@type='submit']")
 
@@ -55,6 +55,5 @@ if tab_add_employee.is_displayed():
     pim_save.click()
     time.sleep(5)
 
-    print("Kate Hudson")
     take_screenshot(my_chromedriver)
 
