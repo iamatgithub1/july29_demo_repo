@@ -49,7 +49,7 @@ if tab_add_employee.is_displayed():
     pim_save = my_chromedriver.find_element(By.XPATH, "//button[@type='submit']")
 
     pim_add_img_btn.click()
-    script_path = "C:\\C Drive_GUVI_Lectures\\auto_id_exe\\Orange.exe"
+    script_path = "C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\july29_class_test_project\\Orange.exe"
     subprocess.run(script_path, shell=True)
     time.sleep(5)
     pim_save.click()
